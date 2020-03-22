@@ -1,11 +1,11 @@
 import React from "react";
 import { shallow } from "enzyme";
-import App from "../App";
+import Result from "../components/Result/Result.jsx";
 
-describe("App renders without crashing", () => {
-  const wrapper = shallow(<App />);
+describe("Result renders", () => {
+  const wrapper = shallow(<Result />);
 
-  it("should render ", () => {
+  it("should render", () => {
     expect(wrapper).toHaveLength(1);
   });
 

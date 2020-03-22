@@ -1,11 +1,11 @@
 import React from "react";
 import { shallow } from "enzyme";
-import App from "../App";
+import Calculator from "../components/Calculator/Calculator.jsx";
 
-describe("App renders without crashing", () => {
-  const wrapper = shallow(<App />);
+describe("Calculator renders", () => {
+  const wrapper = shallow(<Calculator />);
 
-  it("should render ", () => {
+  it("should render", () => {
     expect(wrapper).toHaveLength(1);
   });
 

@@ -1,11 +1,11 @@
 import React from "react";
 import { shallow } from "enzyme";
-import App from "../App";
+import Keypad from "../components/Keypad/Keypad.jsx";
 
-describe("App renders without crashing", () => {
-  const wrapper = shallow(<App />);
+describe("Keypad renders", () => {
+  const wrapper = shallow(<Keypad />);
 
-  it("should render ", () => {
+  it("should render", () => {
     expect(wrapper).toHaveLength(1);
   });
 

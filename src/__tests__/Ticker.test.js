@@ -1,11 +1,11 @@
 import React from "react";
 import { shallow } from "enzyme";
-import App from "../App";
+import Ticker from "../components/Ticker/Ticker.jsx";
 
-describe("App renders without crashing", () => {
-  const wrapper = shallow(<App />);
+describe("Ticker renders", () => {
+  const wrapper = shallow(<Ticker />);
 
-  it("should render ", () => {
+  it("should render", () => {
     expect(wrapper).toHaveLength(1);
   });
 
