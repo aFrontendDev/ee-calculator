@@ -6,4 +6,6 @@
   font-size: pxToRem(20);
   font-weight: 400;
   text-align: right;
+  white-space: nowrap;
+  overflow: auto;
 }
