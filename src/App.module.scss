@@ -1,3 +1,6 @@
-.testing {
+@import "./globalStyles/utilities/mixins.scss";
+
+.wrapper {
   color: #000;
+  padding: pxToRem(20) 0;
 }

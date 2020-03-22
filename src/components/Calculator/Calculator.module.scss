@@ -1,0 +1,19 @@
+@import "../../globalStyles/utilities/mixins.scss";
+@import "../../globalStyles/settings/variables.scss";
+
+.container {
+  width: 100%;
+  max-width: pxToRem(400);
+  margin: 0 auto;
+}
+
+.header {
+  background-color: $brandColorA;
+  text-align: center;
+  padding: pxToRem(20) pxToRem(10);
+
+  svg {
+    fill: $colorWhite;
+    width: 50%;
+  }
+}
