@@ -1,0 +1,56 @@
+@import "../../globalStyles/utilities/mixins.scss";
+@import "../../globalStyles/settings/variables.scss";
+@import "../../globalStyles/elements/button.scss";
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main {
+  display: flex;
+  width: 75%;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+.ops {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.btnBase {
+  @extend .btnReset;
+  background: none;
+  border: solid 1px $colorWhite;
+  padding: pxToRem(5);
+  min-height: pxToRem(50);
+  font-size: pxToRem(20);
+  background-color: $brandColorA;
+  color: $colorWhite;
+}
+
+.btnClear {
+  @extend .btnBase;
+  width: 100%;
+  background-color: darken($brandColorA, 15%);
+}
+
+.btnDigit {
+  @extend .btnBase;
+  width: calc(100% / 3);
+}
+
+.btnDigitZero {
+  @extend .btnBase;
+  order: 2;
+  width: calc(100% / 3 * 2);
+}
+
+.btnOps {
+  @extend .btnBase;
+  width: 100%;
+  background-color: darken($brandColorA, 15%);
+}

@@ -1,0 +1,9 @@
+@import "../../globalStyles/utilities/mixins.scss";
+
+.container {
+  width: 100%;
+  padding: pxToRem(10);
+  font-size: pxToRem(30);
+  font-weight: 700;
+  text-align: right;
+}

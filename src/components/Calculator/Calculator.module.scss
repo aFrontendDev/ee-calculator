@@ -5,6 +5,7 @@
   width: 100%;
   max-width: pxToRem(400);
   margin: 0 auto;
+  border: solid pxToRem(2) $brandColorA;
 }
 
 .header {
