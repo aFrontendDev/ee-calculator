@@ -15,3 +15,10 @@ The project can be built by following these steps:
 3.  To build the solution for production run `npm run build`
 
 4.  To run the tests run `npm run test`
+
+### TODO/Improvements
+1) Logic in Calculator.jsx needs to be improved and refactored a little, time was short and whilst it works perfectly fine, if it were ongoing work it'd be a lot nicer to move some of the state updates into their own function and also potentially rework how the calculations are tracked.
+
+2) The keypad buttons has a lot of repetitive code, this could be changed to be more DRY
+
+3) More tests would be nice for the Calculator functionality
